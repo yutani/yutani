@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "rails", "4.1.4"
+gem "rails", "~> 4.1.4"
 gem "pg"
 gem "sass-rails"
 gem "uglifier"
@@ -14,6 +14,7 @@ gem "puma"
 gem "simple_form"
 gem "bootstrap-sass"
 gem "valid_email"
+gem "figaro"
 
 group :development, :test do
   gem "spring"
