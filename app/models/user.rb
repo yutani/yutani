@@ -12,6 +12,10 @@ class User < ActiveRecord::Base
     :presence =>    true,
     :length   =>    { :minimum => 6 }
 
+  validates :password_confirmation,
+    :presence =>    true,
+    :length   =>    { :minimum => 6 }
+
   validates :first_name,
     :presence =>    true,
     :length   =>    { :maximum => 50 }
