@@ -1,0 +1,5 @@
+- if flash[:notice].present?
+  .flash-success= flash[:notice]
+
+- if flash[:alert].present?
+  .flash-error= flash[:alert]
